@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZenSite | Home</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:Segoe UI,Arial,sans-serif;
+  background:url('background.png') no-repeat center center fixed;
+  background-size:cover;
+  color:#fff;
+}
+.overlay{
+  min-height:100vh;
+  background:rgba(0,0,0,.75);
+}
+header{
+  position:fixed;top:0;width:100%;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:15px 25px;
+  background:rgba(0,0,0,.8);
+}
+nav a{
+  color:#fff;text-decoration:none;margin-left:15px;font-weight:600;
+}
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:100px 20px;
+}
+.box{
+  background:rgba(15,15,20,.85);
+  padding:45px;
+  border-radius:22px;
+  max-width:900px;
+}
+h1{font-size:3rem}
+p{margin-top:15px;color:#ddd}
+.btn{
+  display:inline-block;
+  margin:10px;
+  padding:14px 26px;
+  border-radius:14px;
+  text-decoration:none;
+  font-weight:800;
+}
+.primary{background:#0096ff;color:#000}
+.secondary{border:1px solid #0096ff;color:#fff}
+.wa{
+  position:fixed;right:20px;bottom:20px;
+  width:58px;height:58px;
+  background:#25D366;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+}
+.wa img{width:32px}
+</style>
+</head>
+
+<body>
+<div class="overlay">
+
+<header>
+  <div>ZenSite</div>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="demo.html">Demo</a>
+    <a href="planes.html">Planes</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="box">
+    <h1>ZenSite</h1>
+    <p>Webs premium, modernas y profesionales diseñadas para vender.</p>
+    <a class="btn primary" href="demo.html">Ver Demo</a>
+    <a class="btn secondary" href="planes.html">Ver Planes</a>
+  </div>
+</section>
+
+<a class="wa" href="https://wa.me/5027942412" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+</a>
+
+</div>
+</body>
+</html>

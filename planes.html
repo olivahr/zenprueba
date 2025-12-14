@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZenSite | Planes</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:Segoe UI,Arial,sans-serif;
+  background:url('background.png') no-repeat center center fixed;
+  background-size:cover;
+  color:#fff;
+}
+.overlay{background:rgba(0,0,0,.75);min-height:100vh}
+header{
+  position:fixed;top:0;width:100%;
+  display:flex;justify-content:space-between;
+  padding:15px 25px;
+  background:rgba(0,0,0,.8);
+}
+nav a{color:#fff;text-decoration:none;margin-left:15px}
+main{padding-top:110px}
+.container{
+  max-width:1100px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:22px;
+  padding:20px;
+}
+.card{
+  background:rgba(18,18,24,.88);
+  padding:28px;
+  border-radius:22px;
+  text-align:center;
+}
+.price{font-size:2rem;color:#00bfff;margin:12px}
+.btn{
+  display:block;
+  margin-top:15px;
+  padding:14px;
+  background:#0096ff;
+  color:#000;
+  text-decoration:none;
+  border-radius:12px;
+  font-weight:800;
+}
+.back{color:#fff;text-decoration:none;font-weight:700;margin-left:20px}
+</style>
+</head>
+
+<body>
+<div class="overlay">
+
+<header>
+  <div>ZenSite</div>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="demo.html">Demo</a>
+  </nav>
+</header>
+
+<main>
+<a class="back" href="index.html">⬅ Volver</a>
+
+<div class="container">
+  <div class="card">
+    <h2>Z</h2>
+    <div class="price">$180</div>
+    <p>Home Page profesional optimizada y moderna.</p>
+    <a class="btn" href="https://wa.me/5027942412">WhatsApp</a>
+  </div>
+
+  <div class="card">
+    <h2>Z+</h2>
+    <div class="price">$320</div>
+    <p>Website de 3 a 5 páginas con estructura completa.</p>
+    <a class="btn" href="https://wa.me/5027942412">WhatsApp</a>
+  </div>
+
+  <div class="card">
+    <h2>Z Premium</h2>
+    <div class="price">$580</div>
+    <p>Tienda online con carrito, pagos e inventario.</p>
+    <a class="btn" href="https://wa.me/5027942412">WhatsApp</a>
+  </div>
+</div>
+</main>
+
+</div>
+</body>
+</html>
